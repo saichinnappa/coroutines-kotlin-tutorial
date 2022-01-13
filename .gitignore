@@ -1,0 +1,38 @@
+.gitattributes
+bin/
+.pmd
+
+### Gradle ###
+.gradle
+/build/
+/out/
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle/wrapper/gradle-wrapper.jar
+
+/**/build/
+/**/out/
+
+### STS ###
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### OS and Application Log ###
+.DS_Store
+*.log
+*.class
+/target/
+
+### Ignoring local log file
+*.log
+
+clean/
